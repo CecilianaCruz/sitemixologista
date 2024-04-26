@@ -1,0 +1,15 @@
+nav a {
+  text-transform: uppercase;
+  color: orange ;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  position: relative;
+}
+
+nav a:hover::before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  color: orange;
+}
