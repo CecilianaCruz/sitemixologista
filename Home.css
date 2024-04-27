@@ -548,11 +548,19 @@
     margin-top: 80px;
     margin-bottom: 32px;
   }
+
+  .pilares{
+    display: flex; 
+    margin: auto; 
+    justify-content: center; 
+    align-items: center;
+
+  }
   
   .u-section-3 .u-image-1 {
     min-height: 532px;
     background-image: url("imagem/group.png");
-    background-position: 50% 50%;
+    background-position: ;
   }
   
   .u-section-3 .u-container-layout-1 {
@@ -608,7 +616,6 @@
     .u-section-3 .u-sheet-1 {
       min-height: 597px;
     }
-  
     .u-section-3 .u-layout-wrap-1 {
       margin-bottom: 58px;
     }
@@ -665,7 +672,8 @@
     .u-section-3 .u-layout-wrap-1 {
       margin-bottom: -65px;
     }
-  
+  .pilares{display: block;}
+
     .u-section-3 .u-image-1 {
       background-position: 5.29% 12.38%;
       min-height: 851px;
